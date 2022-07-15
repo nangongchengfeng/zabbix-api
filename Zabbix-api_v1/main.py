@@ -5,8 +5,8 @@
 import configparser
 import os,sys
 import time
-from api.zabbixapi.GetItems import Zabbix
-from api.zabbixapi.SaveToExcel  import WriteExcel
+from GetItems import Zabbix
+from SaveToExcel  import WriteExcel
 import datetime
 
 path = os.path.dirname(os.path.abspath(__file__))
